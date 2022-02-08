@@ -1,0 +1,16 @@
+.headerLeft{
+    box-sizing: border-box;
+    block-size: var(--headerSize);
+    background-color: var(--grey-4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    border-inline-end: 1px solid var(--grey);
+}
+
+.headerLeft img{
+    inline-size: 3rem;
+    block-size: 3rem;
+    border-radius: 50%;
+}

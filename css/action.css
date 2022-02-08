@@ -1,0 +1,19 @@
+.actions{
+    box-sizing: border-box;
+    block-size: var(--actionsSize);
+    display: flex;
+    align-items: center;
+    padding: 1.87rem 1rem;
+    gap: 1rem;
+
+    background-color: var(--grey-4);
+}
+
+.action-type{
+    flex-grow: 1;
+    border-radius: 25px;
+    border: none;
+    color: var(--grey);
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+}

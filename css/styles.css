@@ -1,0 +1,57 @@
+/* Horizontal: linea vertical: Bloque....Eje principal, eje transversal */
+@import url('./wapp.css');
+@import url('./chat-list.css');
+@import url('./chat.css');
+@import url('./user.css');
+@import url('./header.css');
+@import url('./message.css');
+@import url('./action.css');
+@import url('./icon-list.css');
+@import url('./header-left.css');
+@import url('./search-user.css');
+@import url('./contact-space.css');
+@import url('./contact-card.css');
+
+
+
+
+
+
+
+:root{
+    --headerSize: 5rem;
+    --actionsSize: 5rem;
+    --boxUserSize: 5rem;
+    --cardUser: 5rem;
+    --fontFamily: 'Inter', sans-serif;
+    font-size: 16px;
+    --black: #000000; 
+    --grey: #666667; 
+    --grey-2: #f2f2f2; 
+    --grey-3: #f6f6f6; 
+    --grey-4: #ededed; 
+    --white: #ffffff; 
+    --green-1: #e1f7cb; 
+    --green-2: #56bca6; 
+    --red: #ff4a4a; 
+    --green-3: #429488; 
+    --blue: #5cb3f0; 
+    --body-16regular: 400 1rem/1.25rem Inter; 
+    --body-16bold: 700 1rem/1.25rem Inter; 
+    --body-14regular: 400 0.875rem/1.125rem Inter; 
+    --body-14regular_u: 500 0.875rem/1.25rem Inter; 
+    --caption-12bold: 700 0.75rem/1rem Inter; 
+    --caption-12regular: 400 0.75rem/1rem Inter; 
+    --caption-12regular_u: 400 0.75rem/1.25rem Inter;     
+
+}
+
+body{
+    margin: 0;
+    font-family: var(--fontFamily);
+}
+
+
+
+
+

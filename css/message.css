@@ -1,0 +1,15 @@
+@import url('message-content.css');
+@import url('date.css');
+
+
+.messages{
+    /*  block-size: calc(100% - 160px); */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    padding: 1rem;
+    overflow: auto;
+}

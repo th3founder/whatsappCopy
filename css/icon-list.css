@@ -1,0 +1,27 @@
+.button{
+    border: none;
+    box-sizing: border-box;
+    inline-size: 1.5rem;
+    block-size: 1.5rem;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+button.icon-search{
+    background-image: url('../icons/search.svg');
+}
+
+.button.icon-face{
+    background-image: url('../icons/smile.svg');
+}
+
+.button.icon-link{
+    background-image: url('../icons/paperclip.svg');  
+}
+
+.button.icon-voiceNote{
+    background-image: url('../icons/mic.svg');    
+}

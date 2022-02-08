@@ -1,0 +1,82 @@
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.userCard{
+    block-size: var(--cardUser);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    gap: .5rem;
+    position: relative;
+}
+
+.userCard::after{
+    position: absolute;
+    content: "";
+    inline-size: 90%;
+    block-size: .005rem;
+    inset-block-end: 0;
+    
+    background-color: var(--grey-4);
+}
+
+
+.userCard img{
+
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: .25rem;
+}
+
+.cardContent p{
+    margin: 0;
+}
+
+
+.cardContent-name{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name{
+    font: var(--body-16regular);
+    color: var(--black);
+}
+
+.dateU{
+    font-size: .75rem;
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+.cardContent-message{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .25rem;
+}
+
+.dobble{
+    background-image: url('../images/dobble.png');
+    inline-size: 1rem;
+    block-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.messageU{
+    font: var(--caption-12regular);
+    color: var(--grey);
+    flex-grow: 1;
+}
+
+.is-selected{
+    background-color: var(--grey-2);
+}
