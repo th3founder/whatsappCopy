@@ -1,0 +1,13 @@
+.allContacts{
+    inline-size: 22.5rem;
+    block-size: 3.5rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.allContacts h3{
+    margin: 0;       
+}

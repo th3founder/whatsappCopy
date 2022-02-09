@@ -16,7 +16,7 @@ a{
     position: absolute;
     content: "";
     inline-size: 90%;
-    block-size: .005rem;
+    block-size: .1rem;
     inset-block-end: 0;
     
     background-color: var(--grey-4);

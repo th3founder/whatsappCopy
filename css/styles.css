@@ -11,6 +11,10 @@
 @import url('./search-user.css');
 @import url('./contact-space.css');
 @import url('./contact-card.css');
+@import url('./all-contact.css');
+@import url('./back.css');
+
+@import url('./responsive-design.css');
 
 
 
@@ -19,12 +23,12 @@
 
 
 :root{
+    font-size: 16px;
     --headerSize: 5rem;
     --actionsSize: 5rem;
     --boxUserSize: 5rem;
     --cardUser: 5rem;
     --fontFamily: 'Inter', sans-serif;
-    font-size: 16px;
     --black: #000000; 
     --grey: #666667; 
     --grey-2: #f2f2f2; 
@@ -55,3 +59,29 @@ body{
 
 
 
+@media screen and (max-width: 768px) {
+    :root{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    :root{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    :root{
+        font-size: 14px;
+    }
+    .dissaper{
+        display: none;
+    }
+    .chatList{
+        flex-grow: 1;
+    }
+    .allContacts{
+        display: blo;
+    }
+}
